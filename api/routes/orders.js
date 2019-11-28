@@ -82,7 +82,9 @@ router.delete('/:orderId', (req, res, next) => {
     Product.remove({ _id: id })
         .exec()
         .then(response => {
-            res.status(200).json(response);
+            res.status(200).json({
+                message: 'Order deleted'
+            });
         })
         .catch(error => {
             res.status(500).json({

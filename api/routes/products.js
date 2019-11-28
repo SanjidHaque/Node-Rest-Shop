@@ -2,6 +2,8 @@ const express = require('express');
 const router = express.Router();
 const mongoose = require('mongoose');
 const multer  =  require('multer');
+const Product = require('../models/product');
+
 
 const storage = multer.diskStorage({
     destination: function(req, file, cb) {
@@ -29,7 +31,6 @@ const upload = multer({
     fileFilter: fileFilter
 });
 
-const Product = require('../models/product');
 
 router.get('/', (req, res, next) => {
 
@@ -122,7 +123,9 @@ router.delete('/:productId', (req, res, next) => {
     Product.remove({ _id: id })
         .exec()
         .then(response => {
-            res.status(200).json(response);
+            res.status(200).json({
+                message: 'Product deleted'
+            });
         })
         .catch(error => {
             res.status(500).json({
