@@ -11,6 +11,8 @@ mongoose.connect('mongodb+srv://Node-Rest-Shop:' +
     useNewUrlParser: true,
     useUnifiedTopology: true
     });
+mongoose.set('useCreateIndex', true);
+
 
 const productRoutes = require('./api/routes/products');
 const orderRoutes = require('./api/routes/orders');
