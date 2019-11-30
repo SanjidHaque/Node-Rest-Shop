@@ -1,12 +1,22 @@
 <h1 align="center">Welcome to Node Rest Shop 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+  <a href="https://github.com/SanjidHaque/Node-Rest-Shop" target="_blank">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+  </a>
   <a href="https://github.com/SanjidHaque/Node-Rest-Shop/blob/master/LICENSE" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
+  <a href="https://twitter.com/Sanjid_Haque" target="_blank">
+    <img alt="Twitter: Sanjid_Haque" src="https://img.shields.io/twitter/follow/Sanjid_Haque.svg?style=social" />
+  </a>
 </p>
 
-> A simple Node.js (Express.js) RESTful API for maintaining a shop that includes products, orders and users management.
+> A Node.js RESTful API Project.
+
+### 🏠 [Homepage](https://github.com/SanjidHaque/Node-Rest-Shop)
+
+### ✨ [Demo](https://github.com/SanjidHaque/Node-Rest-Shop)
 
 ## Install
 
@@ -30,6 +40,8 @@ npm run test
 
 👤 **Sk. Sanjidul Haque**
 
+* Website: https://github.com/SanjidHaque
+* Twitter: [@Sanjid_Haque](https://twitter.com/Sanjid_Haque)
 * Github: [@SanjidHaque](https://github.com/SanjidHaque)
 
 ## 🤝 Contributing
