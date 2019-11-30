@@ -16,7 +16,7 @@
   
 </p>
 
-> A Node.js RESTful API Project.
+> A simple Node.js(express.js) RESTful API for maintaining a shop that includes products, orders and users management.
 
 ### 🏠 [Homepage](https://github.com/SanjidHaque/Node-Rest-Shop)
 
@@ -24,24 +24,27 @@
 
 ## Requirements
 
-For development, you will only need Node.js and a node global package, Yarn, installed in your environement.
+For development, you will only need Node.js and a node global package, npm, installed in your environement.
 
 ### Node
 - #### Node installation on Windows
 
-  Just go on [official Node.js website](https://nodejs.org/) and download the installer.
+Just go on [official Node.js website](https://nodejs.org/) and download the installer.
 Also, be sure to have `git` available in your PATH, `npm` might need it (You can find git [here](https://git-scm.com/)).
 
 If the installation was successful, you should be able to run the following command.
 
-    $ node --version
+    node --version
     v12.3.1
 
-    $ npm --version
+    npm --version
     6.9.0
 
-If you need to update `npm`, you can make it using `npm`! Cool right? After running the following command, just open again the command line and be happy.
-$ npm install npm -g
+If you need to update `npm`, you can make it using `npm`! Cool right? After running the following command, just open again the command line and be happy. just run
+
+```sh 
+npm install npm -g
+```
 
 ## Install
 
