@@ -1,4 +1,4 @@
-﻿<h1 align="center">Welcome to Node Rest Shop</h1>
+﻿<h1 align="center">Welcome to Node Rest Shop :apple: </h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/SanjidHaque/Node-Rest-Shop" target="_blank">
@@ -74,7 +74,7 @@ npm run test
 * Twitter: [@Sanjid_Haque](https://twitter.com/Sanjid_Haque)
 * Github: [@SanjidHaque](https://github.com/SanjidHaque)
 
-## 🤝 Contributing
+## :icecream: Contributing
 
 Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/SanjidHaque/Node-Rest-Shop/issues).
 
